@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB (replace with your MongoDB URI)
-mongoose.connect('mongodb://localhost:27017/timerApp', {
+mongoose.connect('mongodb+srv://AbdulRahman:7fFtLES7HUQc5qlM@study.nuk3n.mongodb.net/?retryWrites=true&w=majority&appName=study', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
