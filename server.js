@@ -120,5 +120,5 @@ app.get('/api/getPoints', async (req, res) => {
 // Start the server
 const PORT = 5001;
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://https://study-backend-k311.onrender.com:${PORT}`);
 });
